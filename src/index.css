@@ -1,13 +1,96 @@
-body {
+/* body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #333;
+} */
+body {
+  background-color: #333;
+  color: #fff;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+.App {
+  text-align: center;
+}
+/* .task-wrapper {
+  display: flex;
+  flex-direction: column;
+  /* width: "500px"; */
+/* align-items: center;
+  padding-top: 200px;
+  gap: 10px; */
+
+.input-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.taskBg {
+  background-color: #555;
+  border-radius: 6px;
+  margin-bottom: 20px;
+  padding: 10px 140px 10px 15px;
+  text-align: left;
+  font-size: 22px;
+  /* position: relative; */
+  margin: 0px 20px 20px 20px;
+  display: flex;
+  align-items: center;
+  flex: 1;
+}
+.taskBg div {
+  display: flex;
+  align-items: center;
+}
+.taskNumber {
+  color: #999;
+  border: 1px solid #999;
+  border-radius: 50%;
+  width: 26px;
+  height: 26px;
+  display: flex;
+  text-align: center;
+  font-size: 14px;
+  margin-right: 8px;
+  align-items: center;
+  justify-content: center;
+}
+.iconsWrap {
+  position: absolute;
+  justify-content: center;
+  transform: translate(-50%);
+  right: 120px;
+  width: auto;
+  display: inline-flex;
+  gap: 15px;
+  margin: 0px 20px 0px 10px;
+  cursor: pointer;
+  color: #00ff89;
+}
+.iconsWrap :hover {
+  color: yellow;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.taskBg .taskTitle {
+  flex: 1;
+}
+.taskBg .done .taskTitle {
+  text-decoration: line-through;
+  opacity: 0.3;
+}
+.mr-20 {
+  margin-right: 20px;
+}
+.form-wrapper {
+  margin-bottom: 20px;
+  padding: 10px 25px 10px 25px;
+  margin: 0px 20px 20px 20px;
+  display: flex;
+  align-items: center;
 }
